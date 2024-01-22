@@ -1,0 +1,172 @@
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --purple: #6F2CFF;
+    --light-purple: #EFE9F9;
+    --red-heart: #A50954;
+    --blue-heart: #ACD9B2;
+    --sm: 14px;
+    --md: 20px;
+    --lg: 60px;
+}
+body{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background: #0C151D;
+}
+.eye{
+    text-align: start;
+  top: 10px;
+  left : 10px;
+  z-index: 1;
+}
+.heaven
+{
+    
+  position:absolute;
+  z-index: 0;
+  text-align: start;
+}
+
+.image{
+    background: #0C151D;
+}
+
+
+.more-info{
+    display: flex;
+    width: 39.4375rem;
+    justify-content: center;
+        align-items: center;
+    gap: 2.5rem;
+    border-radius: 0, 125px;
+}
+.card-container{
+    display: flex;
+width: 39.4375rem;
+justify-content: center;
+align-items: center;
+gap: 2.5rem;
+grid-template-rows: repeat(2, 1fr);
+
+}
+.icons-container{
+    display: flex;
+    width: 39.4375rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    
+}
+.card-icon1{
+    width: 12rem;
+height: 12rem;
+flex-shrink: 0;
+position: relative;
+left: 0;
+top: 0;
+align-items: start;
+}
+.more2{
+    display: flex;
+    width: 39.625rem;
+    padding: 1.25rem 0.125rem;
+    justify-content: center;
+    align-items: center;
+    gap: 5.625rem;
+grid-template-rows: 1fr;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+.ade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #a3abb2;
+}
+
+.buto{
+    display: flex;
+width: 38.625rem;
+height: 5rem;
+justify-content: center;
+align-items: flex-start;
+gap: 2.375rem;
+flex-shrink: 0;
+}
+.desc{
+    background-color: #FFE071;
+    color: #3D3D3D;
+text-align: center;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.03319rem;
+
+}
+.cont{
+    color: #A3ABB2;
+background-color: #171F26;
+text-align: center;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.03125rem;
+
+}
+
+.contai{
+    display: grid; 
+    grid-template-rows: auto 1fr auto;
+}
+.cont2{
+    border-radius: 1.25rem;
+    text-align: center;
+background: #171F26;
+width: 47.25rem;
+height: 7.25rem;
+flex-shrink: 0;
+display: grid;
+grid-template-rows:auto ;
+grid-template-columns: 1fr 1fr;
+}
+.port{
+    color: #A3ABB2;
+    text-align: center;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.03125rem;
+}
+.ski{
+    color: #A3ABB2;
+
+    text-align: center;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.03125rem;
+}
+
+.cont-imagen{
+width: 47.3125rem;
+height: 51.625rem;
+flex-shrink: 0;
+border-radius: 1.25rem;
+}
+
+.text-icon {
+    color: #F1F2F4;
+    font-size: 20px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+text-align: end;
+margin: 80px 60px;
+}
